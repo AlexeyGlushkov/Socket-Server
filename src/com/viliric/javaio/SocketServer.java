@@ -8,6 +8,12 @@ import java.net.*;
 import java.nio.channels.SocketChannel;
 import java.util.*;
 
+
+/*
+	This server uses StringBuffer for get data
+	becouse this server was wrotten for equimpent, 
+	that sending data by chars
+*/
 public class SocketServer {
 
     private static int PORT = 8042;
